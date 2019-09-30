@@ -22,4 +22,4 @@ let grid = [
 ];
 
 console.log("fizzbuzz bitches");
-Console.log(grid);
+console.log(grid);
