@@ -21,4 +21,5 @@ let grid = [
     [01,70,54,71,83,51,54,69,16,92,33,48,61,43,52,01,89,19,67,48]
 ];
 
+console.log("fizzbuzz bitches");
 Console.log(grid);
