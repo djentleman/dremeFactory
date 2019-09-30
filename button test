@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<button type="button" onclick=countChars(prompt())>Click Me to run JS code.</button>
+
+  <script>
+    function countChars(word, char) {
+      let total =0;
+      for (var i = 0; i < word.length; i++) {
+        if (word[i] === char) {
+          total++;
+
+        }
+      }
+      return  window.alert("The word " + word + " has " + total + "  " + char + " in it.");
+    }
+
+//console.log (countChars("The quick brown fox jumps over the lazy dog", "o"));
+
+  </script>
+</body>
+</html>
